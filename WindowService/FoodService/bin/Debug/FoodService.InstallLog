@@ -1,0 +1,15 @@
+﻿Installing assembly 'D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.exe
+   logfile = D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.InstallLog
+Installing service FoodService...
+Service FoodService has been successfully installed.
+Creating EventLog source FoodService in log Application...
+Committing assembly 'D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.exe
+   logfile = D:\uyen\software_architure\WindowService\FoodService\bin\Debug\FoodService.InstallLog

@@ -1,0 +1,328 @@
+﻿
+namespace FoodClient
+{
+    partial class FoodForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.gridFood = new System.Windows.Forms.DataGridView();
+            this.txtKeyword = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.Keyword = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtType = new System.Windows.Forms.TextBox();
+            this.txtDes = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFood)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // gridFood
+            // 
+            this.gridFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFood.Location = new System.Drawing.Point(34, 87);
+            this.gridFood.Name = "gridFood";
+            this.gridFood.RowHeadersWidth = 51;
+            this.gridFood.RowTemplate.Height = 24;
+            this.gridFood.Size = new System.Drawing.Size(855, 141);
+            this.gridFood.TabIndex = 0;
+            this.gridFood.SelectionChanged += new System.EventHandler(this.gridFood_SelectionChanged);
+            // 
+            // txtKeyword
+            // 
+            this.txtKeyword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtKeyword.Location = new System.Drawing.Point(143, 41);
+            this.txtKeyword.Name = "txtKeyword";
+            this.txtKeyword.Size = new System.Drawing.Size(611, 26);
+            this.txtKeyword.TabIndex = 1;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnSearch.Location = new System.Drawing.Point(786, 36);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(103, 37);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // Keyword
+            // 
+            this.Keyword.AutoSize = true;
+            this.Keyword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Keyword.Location = new System.Drawing.Point(33, 44);
+            this.Keyword.Name = "Keyword";
+            this.Keyword.Size = new System.Drawing.Size(73, 20);
+            this.Keyword.TabIndex = 3;
+            this.Keyword.Text = "Keyword";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnAdd.Location = new System.Drawing.Point(786, 341);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(103, 37);
+            this.btnAdd.TabIndex = 5;
+            this.btnAdd.Text = "Add new";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnUpdate.Location = new System.Drawing.Point(786, 434);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(103, 37);
+            this.btnUpdate.TabIndex = 6;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnDelete.Location = new System.Drawing.Point(786, 527);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(103, 37);
+            this.btnDelete.TabIndex = 7;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(33, 297);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(26, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "ID";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.Location = new System.Drawing.Point(33, 352);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 20);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label4.Location = new System.Drawing.Point(33, 407);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 20);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Type";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(33, 461);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 20);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Description";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(33, 514);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Price";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label7.Location = new System.Drawing.Point(33, 567);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(66, 20);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Amount";
+            // 
+            // txtID
+            // 
+            this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtID.Location = new System.Drawing.Point(143, 294);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(611, 26);
+            this.txtID.TabIndex = 14;
+            // 
+            // txtName
+            // 
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtName.Location = new System.Drawing.Point(143, 349);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(611, 26);
+            this.txtName.TabIndex = 15;
+            // 
+            // txtType
+            // 
+            this.txtType.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtType.Location = new System.Drawing.Point(143, 404);
+            this.txtType.Name = "txtType";
+            this.txtType.Size = new System.Drawing.Size(611, 26);
+            this.txtType.TabIndex = 16;
+            // 
+            // txtDes
+            // 
+            this.txtDes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtDes.Location = new System.Drawing.Point(143, 458);
+            this.txtDes.Name = "txtDes";
+            this.txtDes.Size = new System.Drawing.Size(611, 26);
+            this.txtDes.TabIndex = 17;
+            // 
+            // txtPrice
+            // 
+            this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtPrice.Location = new System.Drawing.Point(143, 514);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(611, 26);
+            this.txtPrice.TabIndex = 18;
+            // 
+            // txtAmount
+            // 
+            this.txtAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtAmount.Location = new System.Drawing.Point(143, 567);
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(611, 26);
+            this.txtAmount.TabIndex = 19;
+            // 
+            // txtStatus
+            // 
+            this.txtStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtStatus.Location = new System.Drawing.Point(143, 625);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(611, 26);
+            this.txtStatus.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(33, 625);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Status";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(33, 249);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(168, 26);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "FOOD DETAIL";
+            // 
+            // FoodForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(916, 669);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtAmount);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtDes);
+            this.Controls.Add(this.txtType);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.Keyword);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtKeyword);
+            this.Controls.Add(this.gridFood);
+            this.Name = "FoodForm";
+            this.Text = "FoodForm";
+            this.Load += new System.EventHandler(this.FoodForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridFood)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView gridFood;
+        private System.Windows.Forms.TextBox txtKeyword;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Label Keyword;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtType;
+        private System.Windows.Forms.TextBox txtDes;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.TextBox txtAmount;
+        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
+    }
+}
+

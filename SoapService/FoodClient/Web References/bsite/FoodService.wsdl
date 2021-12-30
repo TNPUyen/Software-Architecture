@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://projectasp.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://projectasp.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://projectasp.org/">
+      <s:element name="GetAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllResult" type="tns:ArrayOfFood" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFood">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Food" nillable="true" type="tns:Food" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Food">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Price" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Amount" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Search">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchResult" type="tns:ArrayOfFood" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFoodDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFoodDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFoodDetailsResult" type="tns:Food" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewFood">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="newfood" type="tns:Food" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewFoodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddNewFoodResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFood">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFoodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFoodResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFood">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="food" type="tns:Food" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFoodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateFoodResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAll" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapIn">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFoodDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFoodDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetFoodDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFoodDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewFoodSoapIn">
+    <wsdl:part name="parameters" element="tns:AddNewFood" />
+  </wsdl:message>
+  <wsdl:message name="AddNewFoodSoapOut">
+    <wsdl:part name="parameters" element="tns:AddNewFoodResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFoodSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFood" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFoodSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFoodResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFoodSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFood" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFoodSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFoodResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FoodServiceSoap">
+    <wsdl:operation name="GetAll">
+      <wsdl:input message="tns:GetAllSoapIn" />
+      <wsdl:output message="tns:GetAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input message="tns:SearchSoapIn" />
+      <wsdl:output message="tns:SearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodDetails">
+      <wsdl:input message="tns:GetFoodDetailsSoapIn" />
+      <wsdl:output message="tns:GetFoodDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewFood">
+      <wsdl:input message="tns:AddNewFoodSoapIn" />
+      <wsdl:output message="tns:AddNewFoodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFood">
+      <wsdl:input message="tns:DeleteFoodSoapIn" />
+      <wsdl:output message="tns:DeleteFoodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFood">
+      <wsdl:input message="tns:UpdateFoodSoapIn" />
+      <wsdl:output message="tns:UpdateFoodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FoodServiceSoap" type="tns:FoodServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAll">
+      <soap:operation soapAction="http://projectasp.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://projectasp.org/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodDetails">
+      <soap:operation soapAction="http://projectasp.org/GetFoodDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewFood">
+      <soap:operation soapAction="http://projectasp.org/AddNewFood" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFood">
+      <soap:operation soapAction="http://projectasp.org/DeleteFood" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFood">
+      <soap:operation soapAction="http://projectasp.org/UpdateFood" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FoodServiceSoap12" type="tns:FoodServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAll">
+      <soap12:operation soapAction="http://projectasp.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap12:operation soapAction="http://projectasp.org/Search" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodDetails">
+      <soap12:operation soapAction="http://projectasp.org/GetFoodDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewFood">
+      <soap12:operation soapAction="http://projectasp.org/AddNewFood" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFood">
+      <soap12:operation soapAction="http://projectasp.org/DeleteFood" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFood">
+      <soap12:operation soapAction="http://projectasp.org/UpdateFood" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FoodService">
+    <wsdl:port name="FoodServiceSoap" binding="tns:FoodServiceSoap">
+      <soap:address location="https://bsite.net/projectasp/FoodService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FoodServiceSoap12" binding="tns:FoodServiceSoap12">
+      <soap12:address location="https://bsite.net/projectasp/FoodService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

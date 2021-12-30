@@ -1,0 +1,13 @@
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodClient.exe.config
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodClient.exe
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodClient.pdb
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodShared.dll
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodShared.pdb
+D:\uyen\software architure\Remoting\FoodClient\bin\Debug\FoodShared.dll.config
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.csproj.AssemblyReference.cache
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.FoodForm.resources
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.cache
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.csproj.CoreCompileInputs.cache
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.exe
+D:\uyen\software architure\Remoting\FoodClient\obj\Debug\FoodClient.pdb

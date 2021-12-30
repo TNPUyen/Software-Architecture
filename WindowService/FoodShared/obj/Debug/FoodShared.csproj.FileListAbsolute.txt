@@ -1,0 +1,14 @@
+D:\uyen\software architure\Remoting\FoodShared\bin\Debug\FoodShared.dll.config
+D:\uyen\software architure\Remoting\FoodShared\bin\Debug\FoodShared.dll
+D:\uyen\software architure\Remoting\FoodShared\bin\Debug\FoodShared.pdb
+D:\uyen\software architure\Remoting\FoodShared\obj\Debug\FoodShared.csproj.AssemblyReference.cache
+D:\uyen\software architure\Remoting\FoodShared\obj\Debug\FoodShared.csproj.CoreCompileInputs.cache
+D:\uyen\software architure\Remoting\FoodShared\obj\Debug\FoodShared.dll
+D:\uyen\software architure\Remoting\FoodShared\obj\Debug\FoodShared.pdb
+D:\uyen\software architure\WindowService\FoodShared\bin\Debug\FoodShared.dll.config
+D:\uyen\software architure\WindowService\FoodShared\bin\Debug\FoodShared.dll
+D:\uyen\software architure\WindowService\FoodShared\bin\Debug\FoodShared.pdb
+D:\uyen\software architure\WindowService\FoodShared\obj\Debug\FoodShared.csproj.AssemblyReference.cache
+D:\uyen\software architure\WindowService\FoodShared\obj\Debug\FoodShared.csproj.CoreCompileInputs.cache
+D:\uyen\software architure\WindowService\FoodShared\obj\Debug\FoodShared.dll
+D:\uyen\software architure\WindowService\FoodShared\obj\Debug\FoodShared.pdb

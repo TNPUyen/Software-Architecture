@@ -1,0 +1,12 @@
+D:\uyen\software_architure\RestfulService\FoodClient\bin\Debug\FoodClient.exe.config
+D:\uyen\software_architure\RestfulService\FoodClient\bin\Debug\FoodClient.exe
+D:\uyen\software_architure\RestfulService\FoodClient\bin\Debug\FoodClient.pdb
+D:\uyen\software_architure\RestfulService\FoodClient\bin\Debug\Newtonsoft.Json.dll
+D:\uyen\software_architure\RestfulService\FoodClient\bin\Debug\Newtonsoft.Json.xml
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.csproj.AssemblyReference.cache
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.FoodForm.resources
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.cache
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.csproj.CoreCompileInputs.cache
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.exe
+D:\uyen\software_architure\RestfulService\FoodClient\obj\Debug\FoodClient.pdb

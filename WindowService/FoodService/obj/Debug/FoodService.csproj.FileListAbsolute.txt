@@ -1,0 +1,13 @@
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodService.exe.config
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodService.exe
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodService.pdb
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodShared.dll
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodShared.pdb
+D:\uyen\software architure\WindowService\FoodService\bin\Debug\FoodShared.dll.config
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.csproj.AssemblyReference.cache
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.ProjectInstaller.resources
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.csproj.GenerateResource.cache
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.csproj.CoreCompileInputs.cache
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.csproj.CopyComplete
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.exe
+D:\uyen\software architure\WindowService\FoodService\obj\Debug\FoodService.pdb

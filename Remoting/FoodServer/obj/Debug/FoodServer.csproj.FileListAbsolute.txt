@@ -1,0 +1,10 @@
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodServer.exe.config
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodServer.exe
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodServer.pdb
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodShared.dll
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodShared.pdb
+D:\uyen\software architure\Remoting\FoodServer\bin\Debug\FoodShared.dll.config
+D:\uyen\software architure\Remoting\FoodServer\obj\Debug\FoodServer.csproj.AssemblyReference.cache
+D:\uyen\software architure\Remoting\FoodServer\obj\Debug\FoodServer.csproj.CoreCompileInputs.cache
+D:\uyen\software architure\Remoting\FoodServer\obj\Debug\FoodServer.exe
+D:\uyen\software architure\Remoting\FoodServer\obj\Debug\FoodServer.pdb

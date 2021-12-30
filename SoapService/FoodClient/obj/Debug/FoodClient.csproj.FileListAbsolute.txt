@@ -1,0 +1,10 @@
+D:\uyen\software_architure\SoapService\FoodClient\bin\Debug\FoodClient.exe.config
+D:\uyen\software_architure\SoapService\FoodClient\bin\Debug\FoodClient.exe
+D:\uyen\software_architure\SoapService\FoodClient\bin\Debug\FoodClient.pdb
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.csproj.AssemblyReference.cache
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.FoodForm.resources
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.Properties.Resources.resources
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.csproj.GenerateResource.cache
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.csproj.CoreCompileInputs.cache
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.exe
+D:\uyen\software_architure\SoapService\FoodClient\obj\Debug\FoodClient.pdb
